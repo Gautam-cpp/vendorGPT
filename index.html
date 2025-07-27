@@ -3,24 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>stall-source-connect</title>
-    <meta name="description" content="Sai's Generated Project" />
+    <title>VendorConnect - AI-Powered Vendor Management Platform</title>
+    <meta name="description" content="Streamline your vendor relationships with VendorConnect's AI-powered vendor management solutions. Connect, manage, and optimize your business partnerships efficiently." />
     <meta name="author" content="Sai" />
+    <meta name="keywords" content="vendor management, AI vendor matching, business partnerships, vendor analytics, procurement platform" />
 
-    <meta property="og:title" content="stall-source-connect" />
-    <meta property="og:description" content="Sai's Generated Project" />
+    <!-- Favicon -->
+    <!-- <link rel="icon"  href="/favicon.ico" /> -->
+    <link rel="icon" href="/favicon.ico" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="VendorConnect - AI-Powered Vendor Management Platform" />
+    <meta property="og:description" content="Streamline your vendor relationships with intelligent AI-powered vendor management solutions. Connect, manage, and optimize your business partnerships." />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="./public/logo.png" />
+    <meta property="og:image" content="/vendorconnect-logo.png" />
+    <meta property="og:url" content="https://vendorconnect.netlify.app" />
+    <meta property="og:site_name" content="VendorConnect" />
 
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Sai" />
-    <meta name="twitter:image" content="./public/logo.png" />
+    <meta name="twitter:title" content="VendorConnect - AI-Powered Vendor Management" />
+    <meta name="twitter:description" content="Streamline vendor relationships with AI-powered management solutions" />
+    <meta name="twitter:image" content="/vendorconnect-logo.png" />
+    <meta name="twitter:creator" content="@Sai" />
+
+    <!-- Additional SEO -->
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="theme-color" content="#1E3A8A" />
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://res.cloudinary.com" />
+    
+    <!-- Google Fonts (if you're using them) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   </head>
 
   <body>
     <div id="root"></div>
+    
+    <!-- Main application script -->
     <script type="module" src="/src/main.tsx"></script>
-     <script src="https://cdn.jsdelivr.net/npm/@cloudinary/url-gen@1.8.2/dist/cloudinary-url-gen.min.js"></script>
- <script src="https://cdn.jsdelivr.net/npm/@cloudinary/react@1.8.2/dist/cloudinary-react.min.js"></script>
+    
+    <!-- Cloudinary Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@cloudinary/url-gen@1.8.2/dist/cloudinary-url-gen.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@cloudinary/react@1.8.2/dist/cloudinary-react.min.js"></script>
+    
+    <!-- Loading fallback (optional) -->
+    <noscript>
+      <div style="text-align: center; padding: 50px; font-family: Inter, sans-serif;">
+        <h1>VendorConnect</h1>
+        <p>Please enable JavaScript to use VendorConnect.</p>
+      </div>
+    </noscript>
   </body>
 </html>
