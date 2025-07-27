@@ -23,13 +23,6 @@
 
 ---
 
-## 📸 Demo
-
-![VendorConnect Dashboard](https://link-to-screenshot-or-gif)  
-*Screenshot/GIF showing VendorConnect in action*
-
----
-
 ## 🛠️ Installation
 
 Follow these steps to set up **VendorConnect** on your local machine:
